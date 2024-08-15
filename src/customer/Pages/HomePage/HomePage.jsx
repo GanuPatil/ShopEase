@@ -1,5 +1,6 @@
 import React from 'react'
 import MainCarousel from '../../components/HomeCarousel/MainCarousel';
+import HomeSectionCarousel from '../../components/HomeSectionCarousel/HomeSectionCarousel';
 
 const HomePage = () => {
     return ( <
@@ -9,9 +10,11 @@ const HomePage = () => {
 
         <
         div >
-        other section <
-        /div> <
-        /div>
+        <
+        HomeSectionCarousel / >
+        <
+        /div> < /
+        div >
     );
 }
 
