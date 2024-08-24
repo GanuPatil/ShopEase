@@ -193,7 +193,7 @@ export default function Navigation() {
                 <span className="sr-only"> Close menu </span>{" "}
                 <XMarkIcon ariahidden="true" className="h-6 w-6" />
               </button>{" "}
-            </div>
+            </div>{" "}
             {/* Links */}{" "}
             <TabGroup className="mt-2">
               <div className="border-b border-gray-200">
@@ -274,7 +274,7 @@ export default function Navigation() {
                   </TabPanel>
                 ))}{" "}
               </TabPanels>{" "}
-            </TabGroup>
+            </TabGroup>{" "}
             <div className="space-y-6 border-t border-gray-200 px-4 py-6">
               {" "}
               {navigation.pages.map((page) => (
@@ -288,7 +288,7 @@ export default function Navigation() {
                   </a>{" "}
                 </div>
               ))}{" "}
-            </div>
+            </div>{" "}
             <div className="space-y-6 border-t border-gray-200 px-4 py-6">
               <div className="flow-root">
                 <a
@@ -306,7 +306,7 @@ export default function Navigation() {
                   Create account{" "}
                 </a>{" "}
               </div>{" "}
-            </div>
+            </div>{" "}
             <div className="border-t border-gray-200 px-4 py-6">
               <a href="#" className="-m-2 flex items-center p-2">
                 <img
@@ -323,11 +323,8 @@ export default function Navigation() {
             </div>{" "}
           </DialogPanel>{" "}
         </div>{" "}
-      </Dialog>
+      </Dialog>{" "}
       <header className="relative bg-white">
-        <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100{" "}
-        </p>
         <nav arialabel="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="border-b border-gray-200">
             <div className="flex h-16 items-center">
@@ -339,7 +336,7 @@ export default function Navigation() {
                 <span className="absolute -inset-0.5" />
                 <span className="sr-only"> Open menu </span>{" "}
                 <Bars3Icon ariahidden="true" className="h-6 w-6" />
-              </button>
+              </button>{" "}
               {/* Logo */}{" "}
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
@@ -350,7 +347,7 @@ export default function Navigation() {
                     className="h-8 w-auto"
                   />
                 </a>{" "}
-              </div>
+              </div>{" "}
               {/* Flyout menus */}{" "}
               <PopoverGroup className="hidden lg:ml-8 lg:block lg:self-stretch">
                 <div className="flex h-full space-x-8">
@@ -362,7 +359,7 @@ export default function Navigation() {
                           {" "}
                           {category.name}{" "}
                         </PopoverButton>{" "}
-                      </div>
+                      </div>{" "}
                       <PopoverPanel
                         transition
                         className="absolute inset-x-0 top-full text-sm text-gray-500 transition data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
@@ -441,7 +438,7 @@ export default function Navigation() {
                         </div>{" "}
                       </PopoverPanel>{" "}
                     </Popover>
-                  ))}
+                  ))}{" "}
                   {navigation.pages.map((page) => (
                     <a
                       key={page.name}
@@ -452,7 +449,7 @@ export default function Navigation() {
                     </a>
                   ))}{" "}
                 </div>{" "}
-              </PopoverGroup>
+              </PopoverGroup>{" "}
               <div className="ml-auto flex items-center">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a
@@ -468,7 +465,7 @@ export default function Navigation() {
                   >
                     Create account{" "}
                   </a>{" "}
-                </div>
+                </div>{" "}
                 <div className="hidden lg:ml-8 lg:flex">
                   <a
                     href="#"
@@ -485,7 +482,7 @@ export default function Navigation() {
                     </span>{" "}
                     <span className="sr-only"> , change currency </span>{" "}
                   </a>{" "}
-                </div>
+                </div>{" "}
                 {/* Search */}{" "}
                 <div className="flex lg:ml-6">
                   <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
@@ -495,7 +492,7 @@ export default function Navigation() {
                       className="h-6 w-6"
                     />
                   </a>{" "}
-                </div>
+                </div>{" "}
                 {/* Cart */}{" "}
                 <div className="ml-4 flow-root lg:ml-6">
                   <a href="#" className="group -m-2 flex items-center p-2">

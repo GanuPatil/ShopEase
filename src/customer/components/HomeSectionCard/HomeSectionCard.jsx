@@ -7,7 +7,7 @@ const HomeSectionCard = ({ product }) => {
         <img
           className="object-cover object-top w-full h-full"
           src={product.imageUrl} // Ensure this property is defined correctly in the data
-          alt={product.title} // Added a meaningful alt text
+          alt="" // Added a meaningful alt text
         />{" "}
       </div>{" "}
       <div className="p-4">
